@@ -140,7 +140,7 @@ body div .indice__home {
     width: 100%;
     height: 70vh;
     justify-content: space-between;
-    padding: 0px 0px;
+    padding: 0;
 }
 
 main .main__img {
@@ -150,6 +150,8 @@ main .main__img {
     border-radius: 7px;
     margin-top: 20px;
 }
+
+
 
 main .main__subtitulo {
     text-align: center;
@@ -175,6 +177,10 @@ main .main__parrafo {
 
 /*Carousel Tecnologias*/
 
+
+.carousel-custom--img {
+    width: 100%;
+}
 /*Entrevistas y ubicación*/
 
 
@@ -215,3 +221,17 @@ main .prueba {
     padding: 10px;
 } 
 /*Arreglar y comparar con el header para solucionar las disposiciones cuando achico y agrando la ventana*/
+
+/*Mq*/
+@media (max-width:480px) {
+    .main {
+        height:inherit;
+        flex-direction: column;
+    }
+    .main__aside {
+        width: 100%;
+    }
+    main .main__img {
+        width: 100%;
+    }
+}
