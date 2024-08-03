@@ -29,7 +29,7 @@ header {
     align-items: center;
 }
 /*Container 1*/
-header .root--container {
+header .myContainer {
     display: flex;
     align-items: center;
 }
@@ -50,7 +50,7 @@ body header .logo {
 }
 
 /*Container 2*/
-body header .root--container__nav {
+body header .myContainer__nav {
     display: flex;
     margin-left: 20px;
 }
@@ -113,7 +113,7 @@ footer picture .wsp {
 /*Estilos para home*/
 
 /*Indice*/
-body .root--container__indice {
+body .myContainer__indice {
     width: 100%;
     height: 50vh;
     background: linear-gradient(to bottom, transparent, #0009), url("https://cdn.lecturio.com/assets/Featured-image-Student-Blog-Hospital-Team.jpg");
