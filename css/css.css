@@ -17,7 +17,7 @@ body {
     margin:0;
 }
 
-/* Estilo para el header*/
+/*Estilo para el header*/
 header {
     width: 100%;
     background-color: #E6FDF2;
@@ -28,8 +28,8 @@ header {
     justify-content:center;
     align-items: center;
 }
-/* Container 1*/
-header .container {
+/*Container 1*/
+header .root--container {
     display: flex;
     align-items: center;
 }
@@ -40,6 +40,7 @@ body header h1 {
     padding: 0;
     margin-left: 30px;
     display: inline-block;
+    font-size: 2em;
 }
 
 body header .logo {
@@ -49,7 +50,7 @@ body header .logo {
 }
 
 /*Container 2*/
-body header .container__nav {
+body header .root--container__nav {
     display: flex;
     margin-left: 20px;
 }
@@ -101,8 +102,8 @@ footer .redes {
 }
 
 footer picture .wsp {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     position:fixed;
     right: 0;
@@ -112,7 +113,7 @@ footer picture .wsp {
 /*Estilos para home*/
 
 /*Indice*/
-body .container__indice {
+body .root--container__indice {
     width: 100%;
     height: 50vh;
     background: linear-gradient(to bottom, transparent, #0009), url("https://cdn.lecturio.com/assets/Featured-image-Student-Blog-Hospital-Team.jpg");
