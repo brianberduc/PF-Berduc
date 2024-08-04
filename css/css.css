@@ -194,12 +194,14 @@ main .main__parrafo {
 /*Estilos para la pagina de contacto*/
 main .formulario1 {
     width: 500px;
-    height: 500px;
+
+    display: grid;
+    place-items: center;
 }
 
 main form .formulario2{
     width: 400px;
-    height: 400px;
+    height: 200px;
 }
 
 main .ubicacion-contacto {
@@ -219,6 +221,8 @@ main .prueba {
     height: 300px;
     margin: 0;
     padding: 10px;
+
+    overflow: hidden;
 } 
 
 .nav__list--mobile {
@@ -258,5 +262,23 @@ main .prueba {
 
     body header .logo {
         width: 80px;
+    }
+
+    main .formulario1 {
+        width: 100%;
+        height: inherit;
+    }
+    
+    main form .formulario2{
+        width: 100%;
+        height: inherit;
+    }
+
+    main .prueba {
+        width: 100%;
+        height: inherit;
+        position: relative;
+        bottom: 0;
+        right: 0;
     }
 }
