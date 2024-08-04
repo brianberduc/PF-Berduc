@@ -220,6 +220,10 @@ main .prueba {
     margin: 0;
     padding: 10px;
 } 
+
+.nav__list--mobile {
+    display: none;
+}
 /*Arreglar y comparar con el header para solucionar las disposiciones cuando achico y agrando la ventana*/
 
 /*Mq*/
@@ -233,5 +237,26 @@ main .prueba {
     }
     main .main__img {
         width: 100%;
+    }
+    body header h1 {
+        display: none;
+    }
+
+    body header div nav .nav__list {
+        display: none;
+    }
+
+    .nav__list--mobile {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    body header .logo {
+        width: 80px;
     }
 }
