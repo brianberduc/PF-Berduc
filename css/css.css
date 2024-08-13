@@ -28,14 +28,16 @@ header {
   justify-content: center;
   align-items: center;
 }
-
-/*Container 1*/
-header .myContainer {
+header .myContainer { /*container 1*/
   display: flex;
   align-items: center;
 }
-
-body header h1 {
+header .myContainer .logo {
+  width: 150px;
+  border-radius: 10px;
+  margin: 0;
+}
+header h1 {
   text-align: center;
   text-decoration: underline;
   padding: 0;
@@ -43,54 +45,40 @@ body header h1 {
   display: inline-block;
   font-size: 2em;
 }
-
-body header .logo {
-  width: 150px;
-  border-radius: 10px;
-  margin: 0;
-}
-
-/*Container 2*/
-body header .myContainer__nav {
+header .myContainer__nav { /*container 2*/
   display: flex;
   margin-left: 20px;
 }
-
-body header div .nav {
+header .myContainer__nav .nav {
   justify-content: space-between;
   align-items: start;
   text-align: center;
 }
-
-body header div nav .nav__list {
+header .myContainer__nav .nav .nav__list {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
-
-body header div nav ul .nav__item {
+header .myContainer__nav .nav .nav__list .nav__item {
   display: inline-block;
   justify-content: space-between;
   align-content: center;
   margin: 0 20px;
   padding: 0;
 }
-
-body header div nav ul .nav__item:hover:not(.nav__item--hover) {
+header .myContainer__nav .nav .nav__list .nav__item:hover:not(.nav__item--hover) {
   text-decoration: solid underline #7fd 1px;
   background-color: rgba(119, 255, 221, 0.2);
   padding: 0 20px;
   margin: 0;
   border-radius: 10px;
 }
-
-header div nav li .nav__link--raya {
+header .myContainer__nav .nav .nav__list .nav__item .nav__link--raya {
   text-decoration: none;
   color: #000;
 }
-
-.nav__item--tamaño {
+header .myContainer__nav .nav .nav__list .nav__item .nav__item--tamaño {
   width: 40px;
   padding: 0;
 }
