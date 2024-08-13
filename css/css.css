@@ -193,7 +193,6 @@ main .prueba {
   display: none;
 }
 
-/*Entrevistas y ubicación*/
 /*Mq*/
 @media (max-width: 480px) {
   .main {

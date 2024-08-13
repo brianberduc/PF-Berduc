@@ -1,14 +1,14 @@
 //import
+@import "utilidades/variables";
+@import "utilidades/extend";
 @import "pages/general";
 @import "pages/home";
 @import "pages/especialidades";
 @import "pages/patologias";
 @import "pages/noticias";
 @import "pages/contacto";
-@import "utilidades/variables";
-@import "utilidades/extend";
 
-/*Entrevistas y ubicación*/
+
 /*Mq*/
 @media (max-width: 480px) {
     .main {
