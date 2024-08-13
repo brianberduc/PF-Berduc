@@ -1,4 +1,77 @@
 @charset "UTF-8";
+/*Estilos para home*/
+/*Main*/
+.main {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 70vh;
+  justify-content: space-between;
+  padding: 0;
+}
+
+main .main__img {
+  width: 30vw;
+  height: 100%;
+  flex: 1;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+main .main__subtitulo {
+  text-align: center;
+}
+
+main .main__parrafo {
+  text-align: justify;
+  width: 100%;
+  height: 50vh;
+  flex: 1;
+}
+
+/*Carousel Tecnologias*/
+.carousel-custom--img {
+  width: 100%;
+}
+
+/*Estilos para especialidades*/
+/*Estilos para patologias*/
+/*Estilos de contacto*/
+main .formulario1 {
+  width: 500px;
+  display: grid;
+  place-items: center;
+}
+
+main form .formulario2 {
+  width: 400px;
+  height: 200px;
+}
+
+main .ubicacion-contacto {
+  display: inline-block;
+  left: 500px;
+  bottom: 0px;
+}
+
+main .prueba {
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 30;
+  right: 30px;
+  border: solid 1px black;
+  width: 400px;
+  height: 300px;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.nav__list--mobile {
+  display: none;
+}
+
 /*Propiedades compartidas entre las paginas*/
 /*Reset general*/
 * {
@@ -13,7 +86,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  background-color: #E6FDF2;
+  background-color: #E3F2FD;
   margin: 0;
 }
 
@@ -83,23 +156,6 @@ header .myContainer__nav .nav .nav__list .nav__item .nav__item--tamaño {
   padding: 0;
 }
 
-/* Footer comun para todas las páginas*/
-footer .redes {
-  width: 30px;
-  height: 30px;
-  margin: 5px;
-}
-
-footer picture .wsp {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
-/*Estilos para home*/
 /*Indice*/
 body .myContainer__indice {
   width: 100%;
@@ -121,79 +177,23 @@ body div .indice__home {
   font-size: 2.5em;
 }
 
-/*Main*/
-.main {
-  display: flex;
-  gap: 20px;
-  width: 100%;
-  height: 70vh;
-  justify-content: space-between;
-  padding: 0;
+/* Footer comun para todas las páginas*/
+footer .redes {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
 }
 
-main .main__img {
-  width: 30vw;
-  height: 100%;
-  flex: 1;
-  border-radius: 7px;
-  margin-top: 20px;
-}
-
-main .main__subtitulo {
-  text-align: center;
-}
-
-main .main__parrafo {
-  text-align: justify;
-  width: 100%;
-  height: 50vh;
-  flex: 1;
-}
-
-/*Carousel Tecnologias*/
-.carousel-custom--img {
-  width: 100%;
+footer picture .wsp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 /*Entrevistas y ubicación*/
-/*Estilos para especialidades*/
-/*Estilos para patologías*/
-/*Estilos para la pagina de contacto*/
-main .formulario1 {
-  width: 500px;
-  display: grid;
-  place-items: center;
-}
-
-main form .formulario2 {
-  width: 400px;
-  height: 200px;
-}
-
-main .ubicacion-contacto {
-  display: inline-block;
-  left: 500px;
-  bottom: 0px;
-}
-
-main .prueba {
-  text-align: center;
-  display: block;
-  position: absolute;
-  bottom: 30;
-  right: 30px;
-  border: solid 1px black;
-  width: 400px;
-  height: 300px;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.nav__list--mobile {
-  display: none;
-}
-
 /*Mq*/
 @media (max-width: 480px) {
   .main {

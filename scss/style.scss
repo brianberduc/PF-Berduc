@@ -1,3 +1,11 @@
+//import
+@import "utilidades/home";
+@import "utilidades/especialidades";
+@import "utilidades/patologias";
+@import "utilidades/noticias";
+@import "utilidades/contacto";
+@import "utilidades/variables";
+
 /*Propiedades compartidas entre las paginas*/
 /*Reset general*/
 * {
@@ -11,11 +19,11 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-    background-color: #E6FDF2;
+    background-color: #E3F2FD;
     margin: 0;
 }
-//nesting
 /*Estilo para el header*/
+//Nesting
 header {
     width: 100%;
     background-color: #E6FDF2;
@@ -80,24 +88,6 @@ header {
         }
     }
 }
-
-/* Footer comun para todas las páginas*/
-footer .redes {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-}
-
-footer picture .wsp {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
-
-/*Estilos para home*/
 /*Indice*/
 body .myContainer__indice {
     width: 100%;
@@ -112,86 +102,26 @@ body .myContainer__indice {
     align-items: center;
     justify-content: center;
 }
-
 body div .indice__home {
     color: rgba(255, 255, 255, 0.9333333333);
     font-style: italic;
     font-size: 2.5em;
 }
-
-/*Main*/
-.main {
-    display: flex;
-    gap: 20px;
-    width: 100%;
-    height: 70vh;
-    justify-content: space-between;
-    padding: 0;
+/* Footer comun para todas las páginas*/
+footer .redes {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
-
-main .main__img {
-    width: 30vw;
-    height: 100%;
-    flex: 1;
-    border-radius: 7px;
-    margin-top: 20px;
+footer picture .wsp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
-
-main .main__subtitulo {
-    text-align: center;
-}
-
-main .main__parrafo {
-    text-align: justify;
-    width: 100%;
-    height: 50vh;
-    flex: 1;
-}
-
-/*Carousel Tecnologias*/
-.carousel-custom--img {
-    width: 100%;
-}
-
 /*Entrevistas y ubicación*/
-/*Estilos para especialidades*/
-/*Estilos para patologías*/
-/*Estilos para la pagina de contacto*/
-main .formulario1 {
-    width: 500px;
-    display: grid;
-    place-items: center;
-}
-
-main form .formulario2 {
-    width: 400px;
-    height: 200px;
-}
-
-main .ubicacion-contacto {
-    display: inline-block;
-    left: 500px;
-    bottom: 0px;
-}
-
-main .prueba {
-    text-align: center;
-    display: block;
-    position: absolute;
-    bottom: 30;
-    right: 30px;
-    border: solid 1px black;
-    width: 400px;
-    height: 300px;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.nav__list--mobile {
-    display: none;
-}
-
 /*Mq*/
 @media (max-width: 480px) {
     .main {

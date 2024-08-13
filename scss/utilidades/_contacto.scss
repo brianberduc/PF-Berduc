@@ -1,0 +1,32 @@
+/*Estilos de contacto*/
+main .formulario1 {
+    width: 500px;
+    display: grid;
+    place-items: center;
+}
+main form .formulario2 {
+    width: 400px;
+    height: 200px;
+}
+main .ubicacion-contacto {
+    display: inline-block;
+    left: 500px;
+    bottom: 0px;
+}
+main .prueba {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 30;
+    right: 30px;
+    border: solid 1px black;
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.nav__list--mobile {
+    display: none;
+}
+
