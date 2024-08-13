@@ -1,0 +1,283 @@
+/*Propiedades compartidas entre las paginas*/
+//comentario que solo queda en scss si quiero que aparezca en los dos tengo que comentar como en css
+/*Reset general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo general del body*/
+body {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px ;
+    background-color: #E6FDF2;
+    margin:0;
+}
+
+/*Estilo para el header*/
+header {
+    width: 100%;
+    background-color: #E6FDF2;
+    margin:0;
+    border-bottom: groove 2px #3332;
+    position: fixed;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/*Container 1*/
+header .myContainer {
+    display: flex;
+    align-items: center;
+}
+
+body header h1 {
+    text-align: center;
+    text-decoration:underline;
+    padding: 0;
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 2em;
+}
+
+body header .logo {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+/*Container 2*/
+body header .myContainer__nav {
+    display: flex;
+    margin-left: 20px;
+}
+
+body header div .nav {
+    justify-content: space-between;
+    align-items: start;
+    text-align: center;
+}
+
+body header div nav .nav__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+body header div nav ul .nav__item  {
+    display: inline-block;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 20px;
+    padding: 0;
+}
+
+body header div nav ul .nav__item:hover:not(.nav__item--hover) {
+    text-decoration:  solid underline #7fd 1px;
+    background-color: #7fd3;
+    padding: 0 20px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+header div nav li .nav__link--raya {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav__item--tamaño {
+    width: 40px;
+    padding: 0;
+}
+
+/* Footer comun para todas las páginas*/
+footer .redes {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+footer picture .wsp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+}
+
+/*Estilos para home*/
+
+/*Indice*/
+body .myContainer__indice {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to bottom, transparent, #0009), url("https://cdn.lecturio.com/assets/Featured-image-Student-Blog-Hospital-Team.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body div .indice__home {
+    color: #fffe;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+/*Main*/
+.main {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-between;
+    padding: 0;
+}
+
+main .main__img {
+    width: 30vw;
+    height: 100%;
+    flex: 1;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+
+
+main .main__subtitulo {
+    text-align: center;
+
+}
+
+main .main__parrafo {
+    text-align: justify;
+    width: 100%;
+    height: 50vh;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Carousel Tecnologias*/
+
+
+.carousel-custom--img {
+    width: 100%;
+}
+/*Entrevistas y ubicación*/
+
+
+
+
+
+
+
+/*Estilos para especialidades*/
+/*Estilos para patologías*/
+/*Estilos para la pagina de contacto*/
+main .formulario1 {
+    width: 500px;
+    display: grid;
+    place-items: center;
+}
+
+main form .formulario2{
+    width: 400px;
+    height: 200px;
+}
+
+main .ubicacion-contacto {
+    display: inline-block;
+    left: 500px;
+    bottom: 0px;
+}
+
+main .prueba {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 30;
+    right:30px;
+    border: solid 1px black;
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+} 
+
+.nav__list--mobile {
+    display: none;
+}
+
+/*Mq*/
+@media (max-width:480px) {
+.main {
+        height:inherit;
+        flex-direction: column;
+}
+.main__aside {
+        width: 100%;
+}
+
+main .main__img {
+    width: 100%;
+}
+
+body header h1 {
+    display: none;
+}
+
+body header div nav .nav__list {
+    display: none;
+}
+
+.nav__list--mobile {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    justify-content: space-between;
+}
+
+body header .logo {
+    width: 80px;
+}
+
+main .formulario1 {
+    width: 100%;
+    height: inherit;
+}
+    
+main form .formulario2{
+    width: 100%;
+    height: inherit;
+}
+
+main .prueba {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    }
+}
