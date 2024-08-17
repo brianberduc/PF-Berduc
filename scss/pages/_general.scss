@@ -31,6 +31,7 @@ header {
             width: 150px;
             border-radius: 10px;
             margin: 0;
+            margin-bottom: 10px;
         }
     }
     h1 {
@@ -97,19 +98,22 @@ body div .indice__home {
     font-size: 2.5em;
 }
 /* Footer comun para todas las páginas*/
-footer {
-    .viñeta {
-    text-decoration: none;
-    }
-    .redes {
-    @include medidas (30px, 30px);
-    margin: 5px;
+.logo__btp {
+    width: 270px;
+    height: 250px;
 }
-}
-    .wsp {
+
+.wsp {
     @include medidas (50px,50px);
     border-radius: 50%;
+    box-shadow: 0 0 20px #1f6;
     position: fixed;
     right: 0;
     bottom: 0;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    transition: transform 10ms;
+    &:hover {
+        transform: scale(1.2);
+    }
 }

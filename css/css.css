@@ -37,6 +37,7 @@ header .myContainer .logo {
   width: 150px;
   border-radius: 10px;
   margin: 0;
+  margin-bottom: 10px;
 }
 header h1 {
   text-align: center;
@@ -106,22 +107,25 @@ body div .indice__home {
 }
 
 /* Footer comun para todas las páginas*/
-footer .viñeta {
-  text-decoration: none;
-}
-footer .redes {
-  width: 30px;
-  height: 30px;
-  margin: 5px;
+.logo__btp {
+  width: 270px;
+  height: 250px;
 }
 
 .wsp {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  box-shadow: 0 0 20px #1f6;
   position: fixed;
   right: 0;
   bottom: 0;
+  margin-bottom: 8px;
+  margin-right: 5px;
+  transition: transform 10ms;
+}
+.wsp:hover {
+  transform: scale(1.2);
 }
 
 /*Estilos para home*/
@@ -160,6 +164,18 @@ main .main__parrafo {
 }
 
 /*Entrevistas y ubicación*/
+.ubicacion__entrevista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0px 20px;
+}
+
+.ubicacion__entrevista--tamaño {
+  width: 100%;
+  height: 50%;
+}
+
 /*Estilos para especialidades*/
 .btn--tamaño {
   font-size: 13px;
