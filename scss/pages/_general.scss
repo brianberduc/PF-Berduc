@@ -17,6 +17,7 @@ body {
 /*Estilo para el header*/
 //Nesting
 header {
+    z-index: 1000;
     width: 100%;
     background-color: $color-principal;
     margin: 0;

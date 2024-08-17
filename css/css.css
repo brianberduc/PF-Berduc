@@ -19,6 +19,7 @@ body {
 
 /*Estilo para el header*/
 header {
+  z-index: 1000;
   width: 100%;
   background-color: #E6FDF2;
   margin: 0;
@@ -160,6 +161,42 @@ main .main__parrafo {
 
 /*Entrevistas y ubicación*/
 /*Estilos para especialidades*/
+.btn--tamaño {
+  font-size: 13px;
+}
+
+.profesionales {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+  margin: 40px;
+}
+
+.profesionales__celdas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.profesionales_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.1s;
+}
+.profesionales_img:hover {
+  transform: scale(1.1);
+}
+
+.profesional {
+  font-size: 20px;
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
 /*Estilos para patologias*/
 /*Estilos para noticias*/
 /*Estilos de contacto*/

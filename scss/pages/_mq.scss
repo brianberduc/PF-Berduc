@@ -1,0 +1,45 @@
+/*Mq*/
+@media (max-width: 480px) {
+    .main {
+    height: inherit;
+    flex-direction: column;
+    }
+    .main__aside {
+    width: 100%;
+    }
+    main .main__img {
+    width: 100%;
+    }
+    body header h1 {
+    display: none;
+    }
+    body header div nav .nav__list {
+    display: none;
+    }
+    .nav__list--mobile {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    }
+    header {
+    justify-content: space-between;
+    }
+    body header .logo {
+    width: 80px;
+    }
+    main .formulario1 {
+    width: 100%;
+    height: inherit;
+    }
+    main form .formulario2 {
+    width: 100%;
+    height: inherit;
+    }
+    main .prueba {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    }
+}
