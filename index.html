@@ -57,12 +57,6 @@
 
     <!--Menu hamburguesa-->
                 <div class="nav__list--mobile">
-                    <li class="nav__item nav__item--hover">
-                        <a href=""><img src="./assets/lupa.png" alt="Buscador" class="nav__item--tamaño"></a>
-                    </li>
-                    <li class="nav__item nav__item--hover">
-                        <a href=""><img src="./assets/avatar.png" alt="Usuario" class="nav__item--tamaño"></a>
-                    </li>
                     <div class="dropdown">
                         <img class="dropdown-toggle" src="./assets/menu.png" width="24" height="24" data-bs-toggle="dropdown">
                         <ul class="dropdown-menu" >
@@ -80,6 +74,9 @@
                             </li>
                             <li class="dropdown-item">
                                 <a href="./enlaces/Contacto.html" class="nav__link nav__link--raya">Contacto</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="nav__link nav__link--raya">Usuario</a>
                             </li>
                         </ul>
                     </div>
@@ -100,33 +97,34 @@
             <img src="./imagenes/vista1.jpg" alt="Imagenes del lugar" class="main__img">
         </aside>
     <!--Descripcion de la empresa y lo que hace (ubicacion: centro pagina)-->
-        <div>
+        <div class="parrafo__mobile">
         <h2 class="main__subtitulo">Nosotros</h2>
-        <p class="main__parrafo text-center"> Rehabilitación Integral es un espacio de excelencia dedicado al cuidado y recuperación de la salud, donde un equipo multidisciplinario de profesionales altamente capacitados, incluyendo médicos, kinesiólogos, fonoaudiólogos, psicólogos, y otros especialistas, trabaja en conjunto para ofrecer un servicio integral y personalizado. <br>
-        En Rehabilitación Integral, cada paciente es tratado con la más alta calidad humana y profesional, en un entorno que valora la empatía y el respeto. El centro se distingue no solo por la competencia de su equipo, sino también por su compromiso con la innovación, al contar con la más avanzada tecnología y equipamiento de última generación. Esto permite ofrecer tratamientos efectivos y a la vanguardia, adaptados a las necesidades particulares de cada paciente, asegurando una recuperación óptima y una mejora sustancial en su calidad de vida. <br>
-        La prioridad en "Rehabilitación Integral" es la salud y bienestar de sus pacientes, quienes reciben una atención dedicada y de confianza en cada etapa de su proceso de recuperación.</p>
+        <p class="main__parrafo"> Rehabilitación Integral es un espacio de excelencia dedicado al cuidado y recuperación de la salud, donde un equipo multidisciplinario de profesionales altamente capacitados, incluyendo médicos, kinesiólogos, fonoaudiólogos, psicólogos, y otros especialistas, trabaja en conjunto para ofrecer un servicio integral y personalizado. <br>
+        <span class="parrafo__oculto">En Rehabilitación Integral, cada paciente es tratado con la más alta calidad humana y profesional, en un entorno que valora la empatía y el respeto. El centro se distingue no solo por la competencia de su equipo, sino también por su compromiso con la innovación, al contar con la más avanzada tecnología y equipamiento de última generación. Esto permite ofrecer tratamientos efectivos y a la vanguardia, adaptados a las necesidades particulares de cada paciente, asegurando una recuperación óptima y una mejora sustancial en su calidad de vida. <br>
+        La prioridad en "Rehabilitación Integral" es la salud y bienestar de sus pacientes, quienes reciben una atención dedicada y de confianza en cada etapa de su proceso de recuperación.</span></p>
         </div>
     <!--Imagen lateral derecho-->
-        <aside>
+        <aside class="img__mobile">
             <img src="./imagenes/vista2.png" alt="Imagenes del lugar" class="main__img">
         </aside>
     </main>
 
     <!--Carousel de fotos con la tecnologia disponible-->
-    <h2 class="titulo__tecnologia mt-5 text-center">Tecnologías</h2>
-    <div id="carouselExample" class="carousel slide w-75 m-auto mt-4">
+    <h2 class="titulo__tecnologia mt-4 text-center">Tecnologías</h2>
+    <div id="carouselExample" class="carousel slide w-100 m-auto mt-4
+    carousel__desktop">
         <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./imagenes/tec1.jpg" class="d-block w-100" alt="Imagen de aparatología utilizada">
+            <img src="./imagenes/tec1.jpg" class="d-block w-100 rounded" alt="Imagen de aparatología utilizada">
         </div>
         <div class="carousel-item">
-            <img src="./imagenes/tec2.jpg" class="d-block w-100" alt="Imagen de aparatología utilizada">
+            <img src="./imagenes/tec2.jpg" class="d-block w-100 rounded" alt="Imagen de aparatología utilizada">
         </div>
         <div class="carousel-item">
-            <img src="./imagenes/tec3.jpg" class="d-block w-100" alt="Imagen de aparatología utilizada">
+            <img src="./imagenes/tec3.jpg" class="d-block w-100 rounded" alt="Imagen de aparatología utilizada">
         </div>
         <div class="carousel-item">
-            <img src="./imagenes/tec4.jpg" class="d-block w-100" alt="Imagen de aparatología utilizada">
+            <img src="./imagenes/tec4.jpg" class="d-block w-100 rounded" alt="Imagen de aparatología utilizada">
         </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

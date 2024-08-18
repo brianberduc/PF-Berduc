@@ -86,7 +86,7 @@ header .myContainer__nav .nav .nav__list .nav__item .nav__item--tamaño {
 }
 
 /*Indice*/
-body .myContainer__indice {
+.myContainer__indice {
   width: 100%;
   height: 50vh;
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6)), url("https://cdn.lecturio.com/assets/Featured-image-Student-Blog-Hospital-Team.jpg");
@@ -139,7 +139,7 @@ body div .indice__home {
   padding: 0;
 }
 
-main .main__img {
+.main__img {
   width: 30vw;
   height: 100%;
   flex: 1;
@@ -147,20 +147,20 @@ main .main__img {
   margin-top: 20px;
 }
 
-main .main__subtitulo {
+.main__subtitulo {
   text-align: center;
 }
 
-main .main__parrafo {
-  text-align: justify;
+.main__parrafo {
+  text-align: center;
   width: 100%;
   height: 50vh;
   flex: 1;
 }
 
 /*Carousel Tecnologias*/
-.carousel-custom--img {
-  width: 100%;
+#carouselExample {
+  padding: 0 30px;
 }
 
 /*Entrevistas y ubicación*/
@@ -314,16 +314,15 @@ main .ubicacion-contacto {
   display: none;
 }
 
-/*Mq*/
+/*MQ*/
 @media screen and (max-width: 480px) {
-  .main {
-    height: inherit;
-    flex-direction: column;
+  /*General*/
+  /*Header*/
+  header {
+    justify-content: space-between;
+    height: 100px;
   }
-  .main__aside {
-    width: 100%;
-  }
-  main .main__img {
+  .logo {
     width: 100%;
   }
   body header h1 {
@@ -334,19 +333,59 @@ main .ubicacion-contacto {
   }
   .nav__list--mobile {
     align-items: center;
+    width: 90px;
     display: flex;
     gap: 20px;
     margin-left: 50px;
   }
-  header {
-    justify-content: space-between;
+  .nav__link--raya {
+    text-decoration: none;
+    color: #000;
   }
-  body header .logo {
-    width: 80px;
+  /*Indice*/
+  .myContainer__indice {
+    height: 230px;
   }
-  header .myContainer .logo {
-    width: 100px;
+  .indice__home {
+    padding-bottom: 18px;
   }
+  /*Home*/
+  .main {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    height: inherit;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main__aside {
+    width: 100%;
+    order: 2;
+  }
+  .main__subtitulo {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .main__parrafo {
+    margin-top: 20px;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 0 30px;
+    line-height: 1.7;
+    height: 100%;
+  }
+  .parrafo__oculto {
+    display: none;
+  }
+  .main__img {
+    width: 100%;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+  }
+  .ubicacion__entrevista {
+    grid-template-columns: 1fr;
+  }
+  /*Contacto*/
   main .formulario1 {
     width: 100%;
     height: inherit;
