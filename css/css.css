@@ -240,7 +240,25 @@ main .main__parrafo {
   box-shadow: 0px 0px 20px #0ff;
 }
 
-/*Estilos para noticias*/
+/* Estilos para noticias */
+.noticias__contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.noticia1__contenedor,
+.noticia2__contenedor {
+  display: flex;
+  gap: 15px;
+}
+
+.texto__noticia {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
 /*Estilos de contacto*/
 .main__contacto {
   display: flex;
