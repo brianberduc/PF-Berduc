@@ -155,4 +155,19 @@
     .ubicacion__entrevista {
         grid-template-columns: 1fr;
     }
+/*Contacto*/
+    .main__contacto {
+        flex-direction: column;
+        font-size: 1.6em;
+        height: 20px;
+    }
+    .titulo__contacto {
+        font-size: 30px;
+    }
+    .form-group {
+        height: 80px;
+    }
+    .btn-submit {
+        margin-bottom: 40px;
+    }
 }
