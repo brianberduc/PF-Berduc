@@ -261,6 +261,10 @@ body div .indice__home {
   gap: 10px;
 }
 
+.noticias__tablet {
+  display: none;
+}
+
 /*Estilos de contacto*/
 .main__contacto {
   display: flex;
@@ -398,6 +402,14 @@ main .ubicacion-contacto {
     width: 100%;
     height: 100%;
   }
+  /*Noticia*/
+  .noticias__contenedor {
+    display: none;
+  }
+  .noticias__tablet {
+    display: flex;
+    justify-content: center;
+  }
   /*Contacto*/
   .main__contacto {
     flex-direction: column;
@@ -486,21 +498,32 @@ main .ubicacion-contacto {
   .ubicacion__entrevista {
     grid-template-columns: 1fr;
   }
-  /*Contacto*/
-  .main__contacto {
-    flex-direction: column;
-    font-size: 1.6em;
+  /*Noticias*/
+  .noticias__contenedor {
+    display: none;
   }
-  .titulo__contacto {
-    font-size: 30px;
+  .noticias__tablet {
+    display: flex;
+    justify-content: center;
   }
-  .form-group textarea {
-    min-height: 150px;
-    max-height: 200px;
-  }
-  .btn-submit {
-    margin-bottom: 40px;
-  }
+}
+/*Contacto*/
+.main__contacto {
+  flex-direction: column;
+  font-size: 1.6em;
+}
+
+.titulo__contacto {
+  font-size: 30px;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  max-height: 200px;
+}
+
+.btn-submit {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=css.css.map */

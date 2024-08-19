@@ -3,18 +3,17 @@
     display: flex;
     flex-direction: column;
 }
-
 .noticia1__contenedor,
 .noticia2__contenedor {
     display: flex;
     gap: 15px;
 }
-
 .texto__noticia {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
 }
-
-
+.noticias__tablet {
+    display: none;
+}

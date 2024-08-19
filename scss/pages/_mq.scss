@@ -82,6 +82,14 @@
         width: 100%;
         height: 100%;
     }
+/*Noticia*/
+.noticias__contenedor {
+    display: none;
+}
+.noticias__tablet {
+    display: flex;
+    justify-content: center;
+} 
 /*Contacto*/
     .main__contacto {
         flex-direction: column;
@@ -170,6 +178,15 @@
     .ubicacion__entrevista {
         grid-template-columns: 1fr;
     }
+/*Noticias*/
+.noticias__contenedor {
+    display: none;
+}
+.noticias__tablet {
+    display: flex;
+    justify-content: center;
+} 
+}
 /*Contacto*/
     .main__contacto {
         flex-direction: column;
@@ -185,4 +202,4 @@
     .btn-submit {
         margin-bottom: 40px;
     }
-}
+
