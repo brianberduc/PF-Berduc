@@ -186,7 +186,6 @@
     display: flex;
     justify-content: center;
 } 
-}
 /*Contacto*/
     .main__contacto {
         flex-direction: column;
@@ -202,4 +201,8 @@
     .btn-submit {
         margin-bottom: 40px;
     }
+    .ubicacion__contacto {
+        padding: 0px 20px;
+    }
+}
 
