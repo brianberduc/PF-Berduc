@@ -218,7 +218,7 @@ body div .indice__home {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 500px);
   gap: 40px;
-  margin-top: 50px;
+  margin-top: 80px;
   justify-items: center;
   text-align: center;
 }
@@ -401,6 +401,11 @@ main .ubicacion-contacto {
     grid-template-rows: repeat(6, 1fr);
   }
   /*Patologias*/
+  .main__patologias {
+    grid-template-row: 1fr;
+    overflow-x: scroll;
+    margin: 80px 20px;
+  }
   /*Noticia*/
   .noticias__contenedor {
     display: none;
@@ -503,6 +508,10 @@ main .ubicacion-contacto {
     grid-template-rows: repeat(3, 1fr);
   }
   /*Patologias*/
+  .main__patologias {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
   /*Noticias*/
   .noticias__contenedor {
     display: none;
