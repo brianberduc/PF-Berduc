@@ -157,7 +157,7 @@ body div .indice__home {
 
 /*Carousel Tecnologias*/
 #carouselExample {
-  padding: 0 30px;
+  width: 90%;
 }
 
 /*Entrevistas y ubicación*/
@@ -380,6 +380,9 @@ main .ubicacion-contacto {
     border-radius: 10%;
   }
   /*Tecnologias*/
+  #carouselExample {
+    width: 90%;
+  }
   /*Ubicacion y testimonios*/
   .ubicacion__entrevista {
     grid-template-columns: 1fr;
@@ -498,6 +501,9 @@ main .ubicacion-contacto {
     border-radius: 10%;
   }
   /*Tecnologias*/
+  #carouselExample {
+    width: 90%;
+  }
   /*Ubicacion y testimonios*/
   .ubicacion__entrevista {
     grid-template-columns: 1fr;
