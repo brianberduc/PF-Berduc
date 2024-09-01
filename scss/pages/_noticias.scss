@@ -17,3 +17,12 @@
 .noticias__tablet {
     display: none;
 }
+.caja-btn {
+    background-color: #14665B;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        color: #14665B;
+    }
+}
