@@ -28,26 +28,20 @@
     }
     /*Indice*/
     .myContainer__indice {
-        height: 230px;
+        height: 300px;
+        background-position: bottom;
     }
-    .indice__home {
-        padding-bottom: 18px;
+    .indice__home {  
+        padding-bottom: 20px;
     }
 /*Home*/
     .main {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        height: inherit;
         flex-direction: column;
         gap: 20px;
     }
     .main__aside {
         width: 100%;
         order: 2;
-    }
-    .main__subtitulo {
-        font-weight: bold;
-        margin-top: 10px;
-        font-size: 2em;
     }
     .main__parrafo {
         margin-top: 20px;
@@ -58,6 +52,7 @@
     }
     .main__img {
         width: 100%;
+        height: 450px;
         padding: 0px 20px;
         margin-bottom: 10px;
         border-radius: 10%;
@@ -147,48 +142,31 @@
     }
     /*Indice*/
     .myContainer__indice {
-        height: 230px;
+        height: 50vh;
     }
     .indice__home {
         padding-bottom: 18px;
     }
 /*Home*/
     .main {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         height: inherit;
         flex-direction: column;
         gap: 20px;
     }
     .main__aside {
-        width: 100%;
-        order: 2;
-    }
-    .main__subtitulo {
-        font-weight: bold;
-        margin-top: 10px;
-        font-size: 2em;
-    }
-    .main__parrafo {
-        margin-top: 20px;
-        font-size: 1.3em;
-        text-align:justify;
-        padding: 0 30px;
-        line-height: 1.7;
-        height: 100%;
-    }
-    .parrafo__oculto{
         display: none;
     }
+    .main__subtitulo {
+        margin-left: 16px;
+    }
+    .main__parrafo {
+        padding: 0 16px;
+        height: 100%;
+    }
     .main__img {
-        width: 100%;
-        padding: 0px 20px;
-        margin-bottom: 10px;
-        border-radius: 10%;
+    display: none;
     }
     /*Tecnologias*/
-    #carouselExample {
-        width: 90%;
-    }
     /*Ubicacion y testimonios*/
     .ubicacion__entrevista {
         grid-template-columns: 1fr;
