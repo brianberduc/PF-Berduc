@@ -22,7 +22,9 @@
     color: white;
 
     &:hover {
-        background-color: white;
+        background-color: transparent;
         color: #14665B;
+        font-weight: 600;
+        border: solid 2px #14665B;
     }
 }
