@@ -405,7 +405,7 @@ main .ubicacion-contacto {
   }
   /*Patologias*/
   .main__patologias {
-    grid-template-row: 1fr;
+    grid-template-rows: 1fr;
     overflow-x: scroll;
     margin: 80px 20px;
   }

@@ -81,11 +81,9 @@
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(6,1fr);
     }
-    .profesionales_img {
-    }
 /*Patologias*/
 .main__patologias {
-    grid-template-row: 1fr;
+    grid-template-rows: 1fr;
     overflow-x: scroll;
     margin: 80px 20px;
 }
