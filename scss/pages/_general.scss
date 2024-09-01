@@ -68,10 +68,10 @@ header {
                     align-content: center;
                     margin: 0 20px;
                     padding: 0;
-                    &:hover:not(.nav__item--hover) {
-                        text-decoration: solid #05332D 1px;
-                        background-color: rgba(119, 255, 221, 0.2);
-                        padding: 0 20px;
+                    &:hover{
+                        text-decoration: solid 1px;
+                        background-color: rgba(119, 255, 221, 0.151);
+                        padding: 5px 20px;
                         margin: 0;
                         border-radius: 10px;
                     }
@@ -99,6 +99,7 @@ body div .indice__home {
     color: rgba(255, 255, 255, 0.9333333333);
     font-size: 2.5em;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 /* Footer comun para todas las páginas*/
 .logo__btp {
