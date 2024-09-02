@@ -1,10 +1,21 @@
 /*Estilos para especialidades*/
+.h2__especialidades {
+    @include titulos;
+}
+.acordion_texto {
+    font-weight: 400;
+}
+.acordion__boton {
+    font-weight: 500;
+    // @include botones;
+}
 .profesionales {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     gap: 40px;
     margin: 40px;
+    font-weight: 400;
 }
 
 .profesionales__celdas{

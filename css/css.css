@@ -69,7 +69,6 @@ header .myContainer__nav .nav .nav__list .nav__item {
   font-weight: 600;
   align-content: center;
   margin: 0 20px;
-  padding: 0;
 }
 header .myContainer__nav .nav .nav__list .nav__item:hover {
   text-decoration: solid 1px;
@@ -176,12 +175,26 @@ footer {
 /*MQ*/
 /*Tablet*/
 /*Estilos para especialidades*/
+.h2__especialidades {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.acordion_texto {
+  font-weight: 400;
+}
+
+.acordion__boton {
+  font-weight: 500;
+}
+
 .profesionales {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 40px;
   margin: 40px;
+  font-weight: 400;
 }
 
 .profesionales__celdas {
