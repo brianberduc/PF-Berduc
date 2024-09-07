@@ -181,7 +181,14 @@ footer {
 }
 
 .acordion_texto {
+  display: flex;
+  flex-direction: column;
   font-weight: 400;
+  height: 100%;
+}
+
+.accordion-item {
+  flex-grow: 1;
 }
 
 .acordion__boton {
@@ -367,6 +374,7 @@ main .ubicacion-contacto {
   .myContainer__indice {
     height: 300px;
     background-position: bottom;
+    background-size: contain;
   }
   .indice__home {
     padding-bottom: 20px;

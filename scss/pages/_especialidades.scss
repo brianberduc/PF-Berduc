@@ -3,7 +3,13 @@
     @include titulos;
 }
 .acordion_texto {
+    display: flex;
+    flex-direction: column;
     font-weight: 400;
+    height: 100%;
+}
+.accordion-item {
+    flex-grow: 1;
 }
 .acordion__boton {
     font-weight: 500;
