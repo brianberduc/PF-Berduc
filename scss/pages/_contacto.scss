@@ -7,20 +7,18 @@
     padding: 20px;
     gap: 20px;
 }
-
 .formulario__contacto {
     display: flex;
     flex-direction: column;
     gap: 15px;
     max-width: 600px;
     width: 100%;
+    font-weight: 400;
 }
-
 .form-group {
     display: flex;
     flex-direction: column;
 }
-
 .text__formulario {
     padding: 10px;
     border: 1px solid #ccc;
@@ -29,24 +27,23 @@
     box-sizing: border-box;
     height: 150px;
 }
-
 /* Estilo para el botón de envío */
 .btn-submit {
     padding: 10px 20px;
-    border: none;
+    border: solid 2px;
     border-radius: 4px;
-    background-color: #007bff;
+    background-color: #14665B;
     color: white;
     font-size: 16px;
     &:hover {
-    background-color: #0056b3;
+    background-color: transparent;
+    color: #14665B;
+    font-weight: 600;
 }
 }
-
 main .ubicacion-contacto {
 width: 600px;
 }
-
 .nav__list--mobile {
     display: none;
 }

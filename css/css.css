@@ -255,7 +255,7 @@ footer {
 }
 .card:hover {
   transition: box-shadow 0.2s;
-  box-shadow: 0px 0px 20px #0ff;
+  box-shadow: 0px 0px 20px #14665B;
 }
 
 /* Estilos para noticias */
@@ -313,6 +313,7 @@ footer {
   gap: 15px;
   max-width: 600px;
   width: 100%;
+  font-weight: 400;
 }
 
 .form-group {
@@ -332,14 +333,16 @@ footer {
 /* Estilo para el botón de envío */
 .btn-submit {
   padding: 10px 20px;
-  border: none;
+  border: solid 2px;
   border-radius: 4px;
-  background-color: #007bff;
+  background-color: #14665B;
   color: white;
   font-size: 16px;
 }
 .btn-submit:hover {
-  background-color: #0056b3;
+  background-color: transparent;
+  color: #14665B;
+  font-weight: 600;
 }
 
 main .ubicacion-contacto {
