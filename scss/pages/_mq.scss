@@ -95,7 +95,10 @@
 .noticias__tablet {
     display: flex;
     justify-content: center;
-} 
+}
+.row__noticias {
+    gap: 40px;
+}
 /*Contacto*/
     .main__contacto {
         flex-direction: column;

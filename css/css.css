@@ -277,6 +277,11 @@ footer {
   gap: 10px;
 }
 
+.card--text {
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .noticias__tablet {
   display: none;
 }
@@ -442,6 +447,9 @@ main .ubicacion-contacto {
   .noticias__tablet {
     display: flex;
     justify-content: center;
+  }
+  .row__noticias {
+    gap: 40px;
   }
   /*Contacto*/
   .main__contacto {
