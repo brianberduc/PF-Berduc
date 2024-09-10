@@ -99,6 +99,9 @@
 .row__noticias {
     gap: 40px;
 }
+.btn--noticias {
+    background-color: #205589;
+}
 /*Contacto*/
     .main__contacto {
         flex-direction: column;
@@ -202,6 +205,14 @@
     display: flex;
     justify-content: center;
 } 
+.btn--noticias {
+    background-color: #205589;
+    &:hover{
+        background-color: transparent;
+        border: solid 1px #205589;
+        color: #205589;
+    }
+}
 /*Contacto*/
     .main__contacto {
         flex-direction: column;

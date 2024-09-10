@@ -284,6 +284,11 @@ footer {
   gap: 15px;
 }
 
+.img__noticias {
+  width: 500px;
+  height: auto;
+}
+
 .texto__noticia {
   display: flex;
   flex-direction: column;
@@ -468,6 +473,9 @@ main .ubicacion-contacto {
   .row__noticias {
     gap: 40px;
   }
+  .btn--noticias {
+    background-color: #205589;
+  }
   /*Contacto*/
   .main__contacto {
     flex-direction: column;
@@ -570,6 +578,14 @@ main .ubicacion-contacto {
   .noticias__tablet {
     display: flex;
     justify-content: center;
+  }
+  .btn--noticias {
+    background-color: #205589;
+  }
+  .btn--noticias:hover {
+    background-color: transparent;
+    border: solid 1px #205589;
+    color: #205589;
   }
   /*Contacto*/
   .main__contacto {
