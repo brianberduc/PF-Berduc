@@ -22,9 +22,8 @@
         font-weight: 400;
         font-size: 14px;
     }
-    &:hover {
-        transition: box-shadow 0.2s;
-        box-shadow: 0px 0px 20px #14665B;
-    }
+}
+.btn {
+    @include botones;
 }
 

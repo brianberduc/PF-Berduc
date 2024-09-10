@@ -131,6 +131,15 @@
     body header div nav .nav__list{
         display: none !important;
     }
+    .dropdown-toggle{
+        cursor: pointer
+    }
+    .dropdown-menu {
+        padding: 0;
+    }
+    .dropdown-item:hover {
+            background-color: #14665Bdd;
+    }
     .nav__list--mobile {
         align-items:center;
         width: 90px;
@@ -141,6 +150,8 @@
     .nav__link--raya {
         text-decoration: none;
         color: #000;
+        font-size: 1.4em;
+        padding:  20px;
     }
     /*Indice*/
     .myContainer__indice {

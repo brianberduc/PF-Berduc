@@ -260,9 +260,16 @@ footer {
   font-weight: 400;
   font-size: 14px;
 }
-.card:hover {
-  transition: box-shadow 0.2s;
-  box-shadow: 0px 0px 20px #14665B;
+
+.btn {
+  background-color: #14665B;
+  color: white;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #14665B;
+  font-weight: 600;
+  border: solid 2px #14665B;
 }
 
 /* Estilos para noticias */
@@ -493,6 +500,15 @@ main .ubicacion-contacto {
   body header div nav .nav__list {
     display: none !important;
   }
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  .dropdown-menu {
+    padding: 0;
+  }
+  .dropdown-item:hover {
+    background-color: rgba(20, 102, 91, 0.8666666667);
+  }
   .nav__list--mobile {
     align-items: center;
     width: 90px;
@@ -503,6 +519,8 @@ main .ubicacion-contacto {
   .nav__link--raya {
     text-decoration: none;
     color: #000;
+    font-size: 1.4em;
+    padding: 20px;
   }
   /*Indice*/
   .myContainer__indice {
