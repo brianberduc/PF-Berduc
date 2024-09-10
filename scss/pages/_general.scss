@@ -101,12 +101,16 @@ body div .indice__home {
 footer{
     font-weight: 600;
 }
-
 .logo__btp {
     width: 270px;
     height: 250px;
 }
-
+.bi-icon {
+    color: #212529;
+ &:hover {
+    color:#05632D
+}
+}
 .wsp {
     @include medidas (50px,50px);
     border-radius: 50%;
