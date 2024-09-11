@@ -161,7 +161,6 @@ footer {
   margin: 0;
 }
 
-/*Carousel Tecnologias*/
 /*Entrevistas y ubicación*/
 .ubicacion__entrevista {
   display: grid;
@@ -179,8 +178,6 @@ footer {
   font-weight: 600;
 }
 
-/*MQ*/
-/*Tablet*/
 /*Estilos para especialidades*/
 .h2__especialidades {
   font-size: 24px;
@@ -556,7 +553,6 @@ main .ubicacion-contacto {
   .main__img {
     display: none;
   }
-  /*Tecnologias*/
   /*Ubicacion y testimonios*/
   .ubicacion__entrevista {
     grid-template-columns: 1fr;
