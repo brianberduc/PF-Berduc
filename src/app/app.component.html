@@ -1,0 +1,13 @@
+<nav>
+  <app-navbar></app-navbar>
+</nav>
+<main>
+
+  <section class="mt-4">
+    <app-alta-modificacion-alumno (agregarAlumno)="agregarAlumno($event)"></app-alta-modificacion-alumno>
+  </section>
+
+  <section class="mt-4">
+    <app-lista-alumnos [alumnos]="alumnos"></app-lista-alumnos>
+  </section>
+</main>

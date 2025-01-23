@@ -1,0 +1,23 @@
+.example-container {
+  width: 100%;
+  height: calc(100% - 64px); //Se restan los 56 pixeles del toolbar
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav {
+  padding: 20px;
+
+  &-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .example-container {
+    height: calc(100% - 56px); //Se restan los 56 pixeles del toolbar
+  }
+
+}

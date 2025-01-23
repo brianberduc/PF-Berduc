@@ -1,0 +1,31 @@
+<mat-card class="pe-4">
+  <mat-card-title>Alumno</mat-card-title>
+
+  <form [formGroup]="form" (ngSubmit)="guardar(form.valid, form.value)">
+  <mat-card-content class="container-fluid p-0">
+    <div class="row mt-4">
+      <mat-form-field class="col-12">
+        <input matInput placeholder="Nombre" formControlName="nombre">
+        <mat-error>El nombre es requerido</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="col-12">
+        <input matInput placeholder="Apellido" formControlName="apellido">
+        <mat-error>El apellido es requerido</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="col-12">
+        <input type="email" matInput placeholder="Correo electrónico" formControlName="email">
+        <mat-error>
+          {{ form.get('email')?.errors?.['required']
+          ? 'El correo electrónico es requerido' : 'El correo electrónico no es válido' }}
+        </mat-error>
+      </mat-form-field>
+    </div>
+  </mat-card-content>
+
+    <mat-card-actions class="d-flex justify-content-end">
+      <button type="submit" mat-raised-button color="primary" [disabled]="!form.valid">Guardar</button>
+    </mat-card-actions>
+  </form>
+</mat-card>

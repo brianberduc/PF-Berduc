@@ -1,0 +1,16 @@
+<table class="w-100" mat-table [dataSource]="alumnos" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="nomyape">
+    <th mat-header-cell appFont20 *matHeaderCellDef> Nombre y pellido </th>
+    <td mat-cell *matCellDef="let alumno"> {{ alumno | nomyape }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="email">
+    <th mat-header-cell appFont20 *matHeaderCellDef> Correo electrónico </th>
+    <td mat-cell *matCellDef="let alumno"> {{ alumno.email }} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="columnas"></tr>
+  <tr mat-row *matRowDef="let row; columns: columnas;"></tr>
+</table>
+
